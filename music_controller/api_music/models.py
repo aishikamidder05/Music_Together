@@ -14,8 +14,6 @@ def generate_unique_code():
     return code
 
 
-
-
 # Create your models here.
 class Room(models.Model):
     code = models.CharField(max_length=8, default="", unique=True)

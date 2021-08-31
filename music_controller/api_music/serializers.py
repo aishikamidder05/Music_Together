@@ -7,4 +7,5 @@ class RoomSerializer(serializers.ModelSerializer):
         model = Room
         fields = ('id', 'code', 'host', 'guest_can_pause',
                     'votes_to_skip', 'created_at')
-
+#primary key for model -> id
+#takes python related code (from models) and turns into json response
